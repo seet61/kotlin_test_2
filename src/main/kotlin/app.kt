@@ -16,4 +16,38 @@ fun main() {
                         It was a continuation of the SALT I talks.
                     """
     println(text)
+
+    /*
+    print("Введите Ваше имя: ")
+    val name = readLine()
+    println("Ваше имя: $name")
+     */
+
+    val compare = agge > age
+    println(compare)
+
+    val a = 10
+    if (a == 10) {
+        println("a == 10")
+    }
+    val b = 20
+    val c = if (a > b) a else b
+    println("c == $c")
+
+    var a1 = 10
+    when(a1) {
+        10 -> {
+            println("a1 = 10")
+            a1 *= 2
+        }
+        20 -> {
+            println("a1 = 20")
+            a1 *= 5
+        }
+        else -> {
+            println("no such case")
+        }
+    }
+
+    println("result a1 = $a1")
 }
